@@ -25,13 +25,25 @@ class Navbar extends Component {
 
             <div className="collapse navbar-collapse" id="barra-navegacao">
               <ul className="nav navbar-nav navbar-right">
-              <li><a onClick={() => browserHistory.push('')}>Apresentação</a></li>
+              <li><a href="" onClick={() => browserHistory.push('')}>Apresentação</a></li>
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pessoas<span className="caret"></span></a>
+                <a href="" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pessoas<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a onClick={() => browserHistory.push('pessoas')}>Professores</a></li>
-                  <li><a onClick={() => browserHistory.push('pessoas')}>Administração</a></li>
-                  <li><a onClick={() => browserHistory.push('pessoas')}>Discentes</a></li>
+                  <li><a href="" onClick={() => browserHistory.push('pessoas')}>Professores</a></li>
+                  <li><a href="" onClick={() => browserHistory.push('pessoas')}>Administração</a></li>
+                  <li><a href="" onClick={() => browserHistory.push('pessoas')}>Discentes</a></li>
+                </ul>
+              </li>
+              <li className="dropdown">
+                <a href="" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentos<span className="caret"></span></a>
+                <ul className="dropdown-menu">
+                  <li><a href="">PDI</a></li>
+                  <li><a href="">Projetos Pedagógicos</a></li>
+                  <li><a href="">Grade Curricular Vigente</a></li>
+                  <li><a href="">Matriz Curricular Vigente</a></li>
+                  <li><a href="">Regulamentos</a></li>
+                  <li><a href="">Formulários</a></li>
+                  <li><a href="">Diretrizes Curriculares</a></li>
                 </ul>
               </li>
               <li className="dropdown">
