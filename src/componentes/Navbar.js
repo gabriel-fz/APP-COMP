@@ -17,7 +17,7 @@ class Navbar extends Component {
               <span className="icon-bar"></span>
               </button>
 
-              <a href="index.html" className="navbar-brand">
+              <a className="navbar-brand">
                 <span className="img-logo">CCUENF</span>
               </a>
             </div>
