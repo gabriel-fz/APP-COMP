@@ -20,6 +20,15 @@ body {
 	color: transparent;
 }
 
+.img-logo2 {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('../IMGs/cccomputacaodois.svg') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
 nav.navbar-transparente{
 	padding: 15px 0px;
 	border: none;

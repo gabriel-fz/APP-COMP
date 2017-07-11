@@ -15,7 +15,9 @@ class NavbarAdmin extends Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
-              <a className="navbar-brand" href="#">Brand</a>
+              <a className="navbar-brand">
+                <span className="img-logo2">CCUENF</span>
+              </a>
             </div>
 
 
