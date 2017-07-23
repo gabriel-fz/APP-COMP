@@ -43,8 +43,19 @@ nav.navbar-transparente{
 	color: white;
 }
 
-.navbar-inverse .navbar-nav>li>a, footer .nav a:hover {
+.navbar-inverse .navbar-nav>li>a:hover {
 	color: #ffca28;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #ffca28;
+    background-color: #023965;
+}
+
+.navbar-right .dropdown-menu {
+    right: initial;
+    left: auto;
+    /*top: 65px;*/
 }
 
 /* -- Capa principal -- */
@@ -274,3 +285,50 @@ hr {
 .alinhar-a-direita{
 	float: right;
 }
+
+
+
+/*	teste de bootstrap */
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-block {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+.card-link:hover {
+  text-decoration: none;
+}
+
+.card-link + .card-link {
+  margin-left: 1.25rem;
+}
+
+
+
