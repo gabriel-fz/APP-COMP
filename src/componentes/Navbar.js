@@ -25,17 +25,17 @@ class Navbar extends Component {
 
             <div className="collapse navbar-collapse" id="barra-navegacao">
               <ul className="nav navbar-nav navbar-right">
-              <li><a href="" onClick={() => browserHistory.push('')}>Apresentação</a></li>
+              <li><a className="estado" onClick={() => browserHistory.push('')}>Apresentação</a></li>
               <li className="dropdown">
-                <a href="" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pessoas<span className="caret"></span></a>
+                <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pessoas<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a href="" onClick={() => browserHistory.push('pessoas')}>Professores</a></li>
-                  <li><a href="" onClick={() => browserHistory.push('pessoas')}>Administração</a></li>
-                  <li><a href="" onClick={() => browserHistory.push('pessoas')}>Discentes</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')}>Professores</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')}>Administração</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')}>Discentes</a></li>
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentos<span className="caret"></span></a>
+                <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentos<span className="caret"></span></a>
                 <ul className="dropdown-menu">
                   <li><a href="">PDI</a></li>
                   <li><a href="">Projetos Pedagógicos</a></li>
@@ -47,18 +47,18 @@ class Navbar extends Component {
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos<span className="caret"></span></a>
+                <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a href="#">Monografias</a></li>
-                  <li><a href="#">Artigos</a></li>
+                  <li><a className="estado">Monografias</a></li>
+                  <li><a className="estado">Artigos</a></li>
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Intranet<span className="caret"></span></a>
+                <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Intranet<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a href="#">Avaliação dos Alunos</a></li>
-                  <li><a href="#">Avaliação dos professores</a></li>
-                  <li><a href="#">Pré-Matrícula</a></li>
+                  <li><a className="estado">Avaliação dos Alunos</a></li>
+                  <li><a className="estado">Avaliação dos professores</a></li>
+                  <li><a className="estado">Pré-Matrícula</a></li>
                 </ul>
               </li>
               </ul> 

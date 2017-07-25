@@ -44,18 +44,18 @@ nav.navbar-transparente{
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #ffca28;
+	color: #b0bec5;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
-    color: #ffca28;
+    color: #b0bec5;
     background-color: #023965;
 }
 
 .navbar-right .dropdown-menu {
     right: initial;
     left: auto;
-    /*top: 65px;*/
+    top: 55px;
 }
 
 /* -- Capa principal -- */
@@ -237,6 +237,10 @@ hr {
 	padding: 0px 80px 0px 80px;
 }
 
+.alinhar-texto2{
+	text-align: justify;
+}
+
 .alinhamento{
 	text-align: justify;
 	padding: 0px 20px 40px 20px;
@@ -330,5 +334,14 @@ hr {
   margin-left: 1.25rem;
 }
 
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #f7f7f9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
 
+.estado {
+	cursor:pointer;
+}
 

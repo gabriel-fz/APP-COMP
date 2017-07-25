@@ -23,7 +23,7 @@ class NavbarAdmin extends Component {
 
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav">
-                <li><a href="" onClick={() => browserHistory.push('/admin')}>Apresentação</a></li>
+                <li><a onClick={() => browserHistory.push('/admin')}>Apresentação</a></li>
                 <li><a href="" onClick={() => browserHistory.push('editar-pessoas')}>Pessoas</a></li>
                 <li><a href="#">Projetos</a></li>
               </ul>
