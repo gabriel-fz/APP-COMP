@@ -271,6 +271,9 @@ hr {
 }
 
 .margem-estilizada{
+	position: relative;
+  	margin-left: auto;
+  	margin-right: auto;
 	padding: 0px 120px 0px 160px;
 }
 
@@ -324,6 +327,7 @@ hr {
 
 .card-text:last-child {
   margin-bottom: 0;
+  text-align: justify;
 }
 
 .card-link:hover {
@@ -345,3 +349,18 @@ hr {
 	cursor:pointer;
 }
 
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #01579b;
+}
+
+/* cards */
+
+.card-img-top {
+  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0.25rem - 1px);
+}
+
+.img-teste {
+  max-width: 100%;
+  height: auto;
+}

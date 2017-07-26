@@ -2,6 +2,26 @@ import React, { Component } from 'react';
 import imagemcapa from '../IMGs/cccomputacaodois.svg';
 import imagemteste from '../IMGs/img1.jpg';
 import $ from 'jquery';
+import OwlCarousel from 'react-owl-carousel2';
+import scti from '../IMGs/SCTI.jpg';
+import noticia1 from '../IMGs/noticia1.jpg';
+import noticia2 from '../IMGs/noticia2.jpg';
+import noticia3 from '../IMGs/noticia3.jpg';
+import noticia4 from '../IMGs/noticia4.jpg';
+
+const options = {
+    items: 3,
+    nav: false,
+    rewind: true,
+    autoplay: true,
+    margin: 50,
+    loop: true,
+    responsive:{
+        0:{items:2},
+        600:{items:3},
+        1000:{items:3}
+    }
+};
 
 
 class TelaInicial extends Component {
@@ -22,57 +42,48 @@ class TelaInicial extends Component {
           <div id="noticias" className="container">
           <h2 className="titulo-secao">Notícias</h2>
           <hr align="center" width="50%" />
-            <div className="row">
-              <div className="col-md-12">
-                <div className="carousel slide multi-item-carousel" id="theCarousel">
-                  <div className="carousel-inner">
-                    <div className="item active">
-                      <div className="col-xs-4">
-                        <div className="row albuns">
-                          <img src={imagemteste} className="img-responsive" />
-                        </div>
-                        <div className="row">
-                          <h4 className="alinhamento-titulo">OLA MUNDO TESTE</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="col-xs-4">
-                        <div className="row albuns">
-                          <img src={imagemteste} className="img-responsive" />
-                        </div>
-                        <div className="row">
-                          <h4 className="alinhamento-titulo">OLA MUNDO TESTE</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="col-xs-4">
-                        <div className="row albuns">
-                          <img src={imagemteste} className="img-responsive" />
-                        </div>
-                        <div className="row">
-                          <h4 className="alinhamento-titulo">OLA MUNDO TESTE</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="item">
-                      <div className="col-xs-4">
-                        <div className="row albuns">
-                          <img src={imagemteste} className="img-responsive" />
-                        </div>
-                        <div className="row">
-                          <h4 className="alinhamento-titulo">OLA MUNDO TESTE</h4>
-                        </div>
-                      </div>
-                    </div>
-
+            <OwlCarousel ref="car" options={options}>
+                <div>
+                  <div className="row">
+                    <img src={scti} className="img-responsive" />
                   </div>
-                  <a className="left carousel-control" href="#theCarousel" data-slide="prev"><i className="glyphicon glyphicon-chevron-left"></i></a>
-                  <a className="right carousel-control" href="#theCarousel" data-slide="next"><i className="glyphicon glyphicon-chevron-right"></i></a>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">As inscrições para o SCTI 2017 estão abertas!</h4>
+                  </div>
                 </div>
-              </div>
-            </div>
+                <div>
+                  <div className="row">
+                    <img src={noticia1} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 1</h4>
+                  </div>
+                </div>
+                <div>
+                  <div className="row">
+                    <img src={noticia2} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 2</h4>
+                  </div>
+                </div>
+                <div>
+                  <div className="row">
+                    <img src={noticia3} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 3</h4>
+                  </div>
+                </div>
+                <div>
+                  <div className="row">
+                    <img src={noticia4} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 4</h4>
+                  </div>
+                </div>
+            </OwlCarousel>
           </div>
         </section> 
 

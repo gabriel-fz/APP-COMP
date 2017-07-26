@@ -1,6 +1,28 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import OwlCarousel from 'react-owl-carousel2';
+import scti from '../IMGs/SCTI.jpg';
+import noticia1 from '../IMGs/noticia1.jpg';
+import noticia2 from '../IMGs/noticia2.jpg';
+import noticia3 from '../IMGs/noticia3.jpg';
+import noticia4 from '../IMGs/noticia4.jpg';
 
+const options = {
+    items: 3,
+    nav: false,
+    rewind: true,
+    autoplay: true,
+    margin: 50,
+    loop: true,
+    responsive:{
+        0:{items:2},
+        600:{items:3},
+        1000:{items:3}
+    }
+};
+
+const events = {
+};
 
 class Teste extends Component {
 
@@ -27,6 +49,77 @@ class Teste extends Component {
               <button type="button" className="btn btn-primary">Salvar</button>
             </div>
           </form>
+
+          <div className="container">
+            <OwlCarousel ref="car" options={options} events={events} >
+                <div>
+                  <div className="row">
+                    <img src={scti} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">As inscrições para o SCTI 2017 estão abertas!</h4>
+                  </div>
+                </div>
+
+                <div className="card">
+                  <img className="card-img-top" src={scti} alt="Card image cap" />
+                  <div className="card-block">
+                    <h4 className="card-title">Card title</h4>
+                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  </div>
+                </div>
+                
+                <div>
+                  <div className="row">
+                    <img src={noticia2} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 2</h4>
+                  </div>
+                </div>
+                <div>
+                  <div className="row">
+                    <img src={noticia3} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 3</h4>
+                  </div>
+                </div>
+                <div>
+                  <div className="row">
+                    <img src={noticia4} className="img-responsive" />
+                  </div>
+                  <div className="row">
+                    <h4 className="alinhamento-titulo">NOTÍCIA 4</h4>
+                  </div>
+                </div>
+            </OwlCarousel>
+          </div>
+
+          <div className="container">
+            <div className="card">
+              <img className="card-img-top" src={scti} alt="Card image cap" />
+              <div className="card-block">
+                <h4 className="card-title">Card title</h4>
+                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div className="card">
+              <img className="card-img-top" src={scti} alt="Card image cap" />
+              <div className="card-block">
+                <h4 className="card-title">Card title</h4>
+                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div className="card">
+              <img className="card-img-top" src={scti} alt="Card image cap" />
+              <div className="card-block">
+                <h4 className="card-title">Card title</h4>
+                <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+
         </section>
       </div>
     );

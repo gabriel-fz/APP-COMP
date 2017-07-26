@@ -5,6 +5,8 @@ import registerServiceWorker from './registerServiceWorker';
 import {Router, Route, browserHistory, IndexRoute} from 'react-router';
 import 'bootstrap';
 import './bootstrap/css/bootstrap.min.css';
+import './CSSs/owl.theme.default.css';
+import './CSSs/owl.theme.green.css';
 import './CSSs/estilo.css';
 import TelaInicial from './componentes/TelaInicial';
 import Pessoas from './componentes/Pessoas';
