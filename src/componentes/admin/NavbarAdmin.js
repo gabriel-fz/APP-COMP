@@ -23,12 +23,18 @@ class NavbarAdmin extends Component {
 
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav">
-                <li><a onClick={() => browserHistory.push('/admin')}>Apresentação</a></li>
-                <li><a href="" onClick={() => browserHistory.push('editar-pessoas')}>Pessoas</a></li>
-                <li><a href="#">Projetos</a></li>
+                <li><a className="estado" onClick={() => browserHistory.push('/admin')}>Apresentação</a></li>
+                <li><a className="estado" onClick={() => browserHistory.push('editar-pessoas')}>Pessoas</a></li>
+                <li className="dropdown">
+                  <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos<span className="caret"></span></a>
+                  <ul className="dropdown-menu">
+                    <li><a className="estado" onClick={() => browserHistory.push('editar-projetos-artigos')}>Artigos</a></li>
+                    <li><a className="estado" onClick={() => browserHistory.push('editar-projetos-monografias')}>Monografias</a></li>
+                  </ul>
+                </li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
-                <li><a href="#">Sair</a></li>
+                <li><a className="estado">Sair</a></li>
               </ul>
             </div>
           </div>

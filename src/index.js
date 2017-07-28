@@ -19,6 +19,8 @@ import Login from './componentes/admin/Login';
 import Admin from './componentes/admin//admin';
 import TelaInicialAdmin from './componentes/admin/TelaInicialAdmin';
 import EditarPessoas from './componentes/admin/EditarPessoas';
+import EditarProjetosMonografias from './componentes/admin/EditarProjetosMonografias';
+import EditarProjetosArtigos from './componentes/admin/EditarProjetosArtigos';
 
 
 const Routes = (
@@ -36,6 +38,8 @@ const Routes = (
 	  <Route path="/admin" component={Admin}>
 	  	<IndexRoute component={TelaInicialAdmin} />
 	  	<Route path="/editar-pessoas" component={EditarPessoas} />
+	  	<Route path="/editar-projetos-monografias" component={EditarProjetosMonografias} />
+	  	<Route path="/editar-projetos-artigos" component={EditarProjetosArtigos} />
 	  </Route>
   </div>
 );
