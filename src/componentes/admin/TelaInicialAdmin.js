@@ -37,7 +37,16 @@ enviaForm(evento){
           <h2 className="titulo-secao">Tela inicial</h2>
 
           <div className="panel panel-default">
-            <div className="panel-body">Notícias</div>
+            <div className="panel-body">
+              <div className="row">
+                <div className="col-md-6">
+                  <h4><b>Notícias</b></h4>
+                </div>
+                <div className="col-md-6">
+                  <ModalNoticias />
+                </div>
+              </div>
+            </div>
             <div className="panel-footer">
               <table className="table">
                 <thead>
@@ -48,7 +57,7 @@ enviaForm(evento){
                 </thead>
                 <tbody>
                   <tr>
-                    <th>Greve geral na uenf</th>
+                    <th>SCTI 2017</th>
                     <td>
                       <button type="button" className="btn btn-danger alinhar-a-direita" onSubmit={this.enviaForm} method="post">Excluir</button>
                     </td>
@@ -71,16 +80,6 @@ enviaForm(evento){
                       )
                     })
                   }
-
-
-
-
-                  <tr>
-                    <th>
-                      <ModalNoticias />
-                    </th>
-                    <td></td>
-                  </tr>
                 </tbody>
               </table>
             </div>
@@ -89,15 +88,21 @@ enviaForm(evento){
           <br />
 
           <div className="panel panel-default">
-            <div className="panel-body">Sobre o curso</div>
+            <div className="panel-body">
+              <div className="row">
+                <div className="col-md-6">
+                  <h4><b>Sobre o Curso</b></h4>
+                </div>
+                <div className="col-md-6">
+                  <ModalCurso />
+                </div>
+              </div>
+            </div>
             <div className="panel-footer">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!</p>
               <p>Ad dolore dignissimos asperiores dicta facere optio quod commodi nam tempore recusandae. Rerum sed nulla eum vero expedita ex delectus voluptates rem at neque quos facere sequi unde optio aliquam!</p>
               <p>Tenetur quod quidem in voluptatem corporis dolorum dicta sit pariatur porro quaerat autem ipsam odit quam beatae tempora quibusdam illum! Modi velit odio nam nulla unde amet odit pariatur at!</p>
               <p>Consequatur rerum amet fuga expedita sunt et tempora saepe? Iusto nihil explicabo perferendis quos provident delectus ducimus necessitatibus reiciendis optio tempora unde earum doloremque commodi laudantium ad nulla vel odio?</p>
-
-              <ModalCurso />
-
             </div>
           </div>
           

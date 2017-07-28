@@ -12,7 +12,7 @@ class ModalNoticias extends Component {
   render() {
     return (
       <div>
-        <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#myModal2">Adicionar</button>
+        <button type="button" className="btn btn-success alinhar-a-direita" data-toggle="modal" data-target="#myModal2">Adicionar</button>
 
         <div id="myModal2" className="modal fade" role="dialog">
           <div className="modal-dialog">
