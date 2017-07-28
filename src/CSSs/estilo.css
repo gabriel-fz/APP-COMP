@@ -29,6 +29,17 @@ body {
 	color: transparent;
 }
 
+.img-logo3 {
+	height: 90px;
+	width: 150px;
+	display: block;
+	background-size: contain;
+	color: transparent;
+	position: relative;
+	top: 50%;
+    left: 30%;
+}
+
 nav.navbar-transparente{
 	padding: 15px 0px;
 	border: none;
@@ -363,4 +374,14 @@ hr {
 .img-teste {
   max-width: 100%;
   height: auto;
+}
+
+/* TELA DE LOGIN */
+
+.top{
+	margin-top: 40%;
+}
+
+.caja{
+	border-radius: 5px;
 }
