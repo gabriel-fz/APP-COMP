@@ -21,6 +21,7 @@ import TelaInicialAdmin from './componentes/admin/TelaInicialAdmin';
 import EditarPessoas from './componentes/admin/EditarPessoas';
 import EditarProjetosMonografias from './componentes/admin/EditarProjetosMonografias';
 import EditarProjetosArtigos from './componentes/admin/EditarProjetosArtigos';
+import LinksIntranet from './componentes/admin/LinksIntranet';
 
 
 const Routes = (
@@ -40,6 +41,7 @@ const Routes = (
 	  	<Route path="/editar-pessoas" component={EditarPessoas} />
 	  	<Route path="/editar-projetos-monografias" component={EditarProjetosMonografias} />
 	  	<Route path="/editar-projetos-artigos" component={EditarProjetosArtigos} />
+	  	<Route path="/editar-links" component={LinksIntranet} />
 	  </Route>
   </div>
 );

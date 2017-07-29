@@ -29,36 +29,36 @@ class Navbar extends Component {
               <li className="dropdown">
                 <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pessoas<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')}>Professores</a></li>
-                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')}>Administração</a></li>
-                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')}>Discentes</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')} href="#professores">Professores</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')} href="#administracao">Administração</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('pessoas')} href="#discentes">Discentes</a></li>
                 </ul>
               </li>
               <li className="dropdown">
                 <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Documentos<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a href="">PDI</a></li>
-                  <li><a href="">Projetos Pedagógicos</a></li>
-                  <li><a href="">Grade Curricular Vigente</a></li>
-                  <li><a href="">Matriz Curricular Vigente</a></li>
-                  <li><a href="">Regulamentos</a></li>
-                  <li><a href="">Formulários</a></li>
-                  <li><a href="">Diretrizes Curriculares</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>PDI</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>Projetos Pedagógicos</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>Grade Curricular Vigente</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>Matriz Curricular Vigente</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>Regulamentos</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>Formulários</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('documentos')}>Diretrizes Curriculares</a></li>
                 </ul>
               </li>
               <li className="dropdown">
                 <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projetos<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a className="estado">Monografias</a></li>
-                  <li><a className="estado">Artigos</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('monografias')}>Monografias</a></li>
+                  <li><a className="estado" onClick={() => browserHistory.push('artigos')}>Artigos</a></li>
                 </ul>
               </li>
               <li className="dropdown">
                 <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Intranet<span className="caret"></span></a>
                 <ul className="dropdown-menu">
-                  <li><a className="estado">Avaliação dos Alunos</a></li>
-                  <li><a className="estado">Avaliação dos professores</a></li>
-                  <li><a className="estado">Pré-Matrícula</a></li>
+                  <li><a href="https://annabelltamariz.typeform.com/to/BndEz5" target="_blank">Avaliação dos Alunos</a></li>
+                  <li><a href="https://annabelltamariz.typeform.com/to/NVj4yr" target="_blank">Avaliação dos professores</a></li>
+                  <li><a href="www.lcmat.uenf.br/matricula" target="_blank">Pré-Matrícula</a></li>
                 </ul>
               </li>
               </ul> 

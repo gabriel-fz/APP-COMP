@@ -32,6 +32,7 @@ class NavbarAdmin extends Component {
                     <li><a className="estado" onClick={() => browserHistory.push('editar-projetos-monografias')}>Monografias</a></li>
                   </ul>
                 </li>
+                <li><a className="estado" onClick={() => browserHistory.push('editar-links')}>Links Intranet</a></li>
               </ul>
               <ul className="nav navbar-nav navbar-right">
                 <li><a className="estado">Sair</a></li>

@@ -18,7 +18,13 @@ const options = {
     responsive:{
         0:{items:1, dots: true, autoplay: true},
         600:{items:2, dots: true, autoplay: true},
-        1000:{items:4, dots: false, autoplay: false}
+        1000:{items:4, 
+              dots: false, 
+              autoplay: false,
+              mousedrag: false,
+              touchdrag: false,
+              pulldrag: false,
+              freedrag: false}
     }
 };
 
@@ -30,7 +36,7 @@ class Pessoas extends Component {
 
 
          <section id="fundo-branco" className="rodape-de-secao">
-          <div id="ocurso" className="container">
+          <div id="professores" className="container">
             <h2 className="titulo-secao">Professores</h2>
             <hr align="center" width="40%" />
             <br />
@@ -72,7 +78,7 @@ class Pessoas extends Component {
         </section>
 
         <section id="fundo-branco">
-          <div id="ocurso" className="container">
+          <div id="administracao" className="container">
             <h2 className="titulo-secao">Administração</h2>
             <hr align="center" width="40%" />
             <br />
@@ -110,7 +116,7 @@ class Pessoas extends Component {
         </section>
 
         <section id="fundo-branco" className="rodape-de-secao">
-          <div id="ocurso" className="container">
+          <div id="discentes" className="container">
             <h2 className="titulo-secao">Discentes</h2>
             <hr align="center" width="40%" />
             <br />
