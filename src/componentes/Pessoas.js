@@ -78,25 +78,25 @@ class Pessoas extends Component {
         </section>
 
         <section id="fundo-branco">
-          <div id="administracao" className="container">
+          <div id="administracao" className="container hidden-xs">
             <h2 className="titulo-secao">Administração</h2>
             <hr align="center" width="40%" />
             <br />
             <div className="margem-estilizada">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-sm-4">
                   <h3 className="cor-azul">Coordenador</h3>
                   <p>Professor Dr. Luis Rivera</p>
                   <p>Email: rivera@uenf.br</p>
                   <p>Sala: 119 - P5</p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-sm-4">
                   <h3 className="cor-azul">Técnico Administrador</h3>
                   <p>Vania Navarro</p>
                   <p>Email: vaniabib@uenf.br </p>
                   <p>Sala: 113 - P5 (secretaria - LCMAT) </p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-sm-4">
                   <h3 className="cor-azul">Suporte Técnico</h3>
                   <p>Msc. Edilson Maciel</p>
                   <p>Email: edilson@uenf.br</p>
@@ -110,6 +110,40 @@ class Pessoas extends Component {
                   <p>Suporte de Redes de Computadores</p>
                   <p>Email: andre@uenf.br</p>
                 </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="administracao" className="container visible-xs">
+            <h2 className="titulo-secao">Administração</h2>
+            <hr align="center" width="40%" />
+            <br />
+            <div className="row alinhar-texto3">
+              <div className="col-sm-4">
+                <h3 className="cor-azul">Coordenador</h3>
+                <p>Professor Dr. Luis Rivera</p>
+                <p>Email: rivera@uenf.br</p>
+                <p>Sala: 119 - P5</p>
+              </div>
+              <div className="col-sm-4">
+                <h3 className="cor-azul">Técnico Administrador</h3>
+                <p>Vania Navarro</p>
+                <p>Email: vaniabib@uenf.br </p>
+                <p>Sala: 113 - P5 (secretaria - LCMAT) </p>
+              </div>
+              <div className="col-sm-4">
+                <h3 className="cor-azul">Suporte Técnico</h3>
+                <p>Msc. Edilson Maciel</p>
+                <p>Email: edilson@uenf.br</p>
+                <p>Sala: 120-P5</p>
+                <br />
+                <p>Tec. Francisco Alves</p>
+                <p>Email: alves@uenf.br</p>
+                <p>Sala: 120-P5</p>
+                <br />
+                <p>Tec. André (Assessor-Chair)</p>
+                <p>Suporte de Redes de Computadores</p>
+                <p>Email: andre@uenf.br</p>
               </div>
             </div>
           </div>

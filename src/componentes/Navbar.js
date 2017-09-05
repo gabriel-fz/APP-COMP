@@ -54,7 +54,7 @@ class Navbar extends Component {
                 </ul>
               </li>
               <li className="dropdown">
-                <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Intranet<span className="caret"></span></a>
+                <a className="estado" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Links Úteis<span className="caret"></span></a>
                 <ul className="dropdown-menu">
                   <li><a href="https://annabelltamariz.typeform.com/to/BndEz5" target="_blank">Avaliação dos Alunos</a></li>
                   <li><a href="https://annabelltamariz.typeform.com/to/NVj4yr" target="_blank">Avaliação dos professores</a></li>

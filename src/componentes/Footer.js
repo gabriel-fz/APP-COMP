@@ -10,43 +10,15 @@ class Footer extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-2">
-                <span className="img-logo">Spotify</span>
+                <span className="img-logo">CCUENF</span>
               </div>
-              <div className="col-md-2">
-                <h4>Company</h4>
+              <div className="col-md-5">
+                <h4>Mais informações</h4>
                 <ul className="nav">
-                  <li><a href="#">Sobre</a></li>
-                  <li><a href="#">Empregos</a></li>
-                  <li><a href="#">Imprensa</a></li>
-                  <li><a href="#">Novidades</a></li>
-                </ul>
-              </div>
-
-              <div className="col-md-2">
-                <h4>Novidades</h4>
-                <ul className="nav">
-                  <li><a href="#">Sobre</a></li>
-                  <li><a href="#">Empregos</a></li>
-                  <li><a href="#">Imprensa</a></li>
-                  <li><a href="#">Novidades</a></li>
-                </ul>
-              </div>
-
-              <div className="col-md-2">
-                <h4>Links Úteis</h4>
-                <ul className="nav">
-                  <li><a href="#">Sobre</a></li>
-                  <li><a href="#">Empregos</a></li>
-                  <li><a href="#">Imprensa</a></li>
-                  <li><a href="#">Novidades</a></li>
-                </ul>
-              </div>
-
-              <div className="col-md-4">
-                <ul className="nav">
-                  <li className="item-rede-social"><a href="#"><img src={facebook} /></a></li>
-                  <li className="item-rede-social"><a href="#"><img src={twitter} /></a></li>
-                  <li className="item-rede-social"><a href="#"><img src={instagram} /></a></li>
+                  <li>Av. Alberto Lamego, 2000 - Parque Califórnia</li>
+                  <li>Prédio P5, Sala 119</li>
+                  <li>Campos dos Goytacazes - RJ</li>
+                  <li>CEP: 28013-602</li>
                 </ul>
               </div>
             </div> 

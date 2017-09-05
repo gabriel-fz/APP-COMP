@@ -10,7 +10,6 @@ body {
 	overflow-x: hidden;
 }
 
-
 .img-logo {
 	height: 40px;
 	width: 132px;
@@ -101,6 +100,13 @@ nav.navbar-transparente{
 	margin-top: 400px;
 }
 
+.btn-custom2{
+	color: #01579b;
+	transition: background 0.4s, color 0.4s;
+	margin-top: 80px;
+}
+
+
 .btn-roxo{
 	background: #7c25f8;
 }
@@ -138,13 +144,6 @@ nav.navbar-transparente{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: white;
-}
-
-.rotacionar{
-	transform: rotate(30deg);
-	-ms-transform: rotate(30deg);
-	-webkit-transform: rotate(30deg);
-	padding-left: 80px;
 }
 
 /* -- CARRO CEU -- */
@@ -252,6 +251,10 @@ hr {
 	text-align: justify;
 }
 
+.alinhar-texto3{
+	text-align: center;
+}
+
 .alinhamento{
 	text-align: justify;
 	padding: 0px 20px 40px 20px;
@@ -262,8 +265,12 @@ hr {
 }
 
 #rodape h4{
-	color: #919496;
-	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#rodape li{
+	color: #b0bec5;
 	text-transform: uppercase;
 }
 
@@ -384,4 +391,31 @@ hr {
 
 .caja{
 	border-radius: 5px;
+}
+
+.Divider1 {
+	border-left:1px solid rgba(0, 0, 0, 0.125);
+	height:129px;
+	right:50px;
+	vertical-align:middle;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+.Divider2 {
+	border-left:1px solid rgba(0, 0, 0, 0.125);
+	height:280px;
+	right:50px;
+	vertical-align:middle;
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+.Divider3 {
+	border-left:1px solid rgba(0, 0, 0, 0.125);
+	height:330px;
+	right:50px;
+	vertical-align:middle;
+	margin-left: 50%;
+	margin-right: 50%;
 }

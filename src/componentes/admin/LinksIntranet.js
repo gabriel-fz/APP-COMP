@@ -18,7 +18,7 @@ class LinksIntranet extends Component {
             <div className="panel-body">
               <div className="row">
                 <div className="col-md-6">
-                  <h4><b>Links - Intranet</b></h4>
+                  <h4><b>Links - Úteis</b></h4>
                 </div>
                 <div className="col-md-6">
                   <ModalLinks />
